@@ -7,7 +7,7 @@
 -   `SKILL.md`: 마스터 운영체제
 -   `prompts/`: 매체별 역할
 -   `references/pledge-map.md`: 민선9기 공약 연결 안전장치
--   `assets/`: 사용자가 권리를 보유한 두부 기준 이미지 등을 추가
+-   `assets/`: 두부 기준 이미지(`dubu-reference.png`) 등 권리를 보유한 이미지
 
 ## 작동식
 

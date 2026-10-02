@@ -97,7 +97,7 @@ WHAT-JUNGNANG Q / WEEKLY=와이드·연결지도 / WEEKLY AX=구조도·프로�
 흰 두부 한 모, 둥근 모서리, 상단 작은 초록 잎, 따뜻한 표정, 볼 홍조의
 기본형. 두부는 주인공이 아니라 작은 문장부호다. Do/不, BIG Q, SIGNAL
 PROMPT, ONE MOVE에 이모티콘처럼 작게 쓴다. 표정·포즈·소품만 변주한다.
-시냥·Q냥은 대표 캐릭터로 쓰지 않는다.
+시냥·Q냥은 대표 캐릭터로 쓰지 않는다. 기준 이미지는 `assets/dubu-reference.png`다.
 
 ## TEXT → IMAGE
 
