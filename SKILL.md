@@ -29,7 +29,8 @@ Do/不은 정치적 찬반이나 우열평가가 아니라 행정 실행원칙�
     국장회의 의제로 숙성.
 -   WEEKLY AX = AX 구조·실행 검증: 업무·주민경험,
     데이터·동의·안전·책임·human approval 검증.
--   두부 | DO不 = 리더십 사례의 MSAVC와 Do/不 패턴.
+-   두부 | DO不 = 리더십 시그널(매주 화요일 05:55): 리더십 사례의 MSAVC와
+    Do/不 패턴.
 -   SOPO = 정책·시장 변화를 소상공인의 행동·도구·조건으로 번역.
 
 ISSUE의 질문은 "정말 그런가? 구조는 어떻게 작동하는가?", 아궁이는
@@ -90,7 +91,8 @@ KEEP=기존 의제, NEW=새 의제, WATCH=추가 확인. PILOT/EXPERIMENT=작은
 `개념도`로 표시한다. 모바일 축소에서도 제호·LEAD·BIG Q가 읽혀야 한다.
 
 MORNING=모바일 타블로이드 1면 / ISSUE=필요 시 2면 WHY-WHAT→SO
-WHAT-JUNGNANG Q / WEEKLY=와이드·연결지도 / WEEKLY AX=구조도·프로세스맵.
+WHAT-JUNGNANG Q / WEEKLY=와이드·연결지도 / WEEKLY AX=구조도·프로세스맵. 리더십 시그널=와이드 1면, DO·不·MSAVC
+CHECK·ONE MOVE·SIGNAL PROMPT 5단 (`assets/dubu-reference.png`).
 
 ## 두부 캐릭터
 
