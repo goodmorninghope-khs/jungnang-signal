@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200">
+<title>MORNING SIGNAL 견본판</title>
+<!--
+  JUNGNANG SIGNAL 타블로이드 판형 A(원톱) 견본.
+  기준: tabloid-design.md. 1200×1800px로 렌더링한다.
+  아래 기사·숫자·지명은 모두 판형 시험용 가상 문장이다. 실제 발행에 옮기지 않는다.
+  제작 때는 data-slot 표시가 있는 요소의 내용만 바꾸고, 크기 체계와 그리드는 유지한다.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F6F3EC;
+    --ink: #141414;
+    --navy: #1E2A47;
+    --gray: #6B6B6B;
+    --rule: #CFCAC0;
+    --signal: #D2462B;
+    --serif: "Noto Serif KR", serif;
+    --sans: "Noto Sans KR", sans-serif;
+    --gutter: 24px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--paper); }
+  body {
+    width: 1200px; height: 1800px; overflow: hidden;
+    padding: 48px 64px 56px;
+    color: var(--ink); font-family: var(--sans);
+    display: flex; flex-direction: column;
+  }
+
+  /* 제호띠 */
+  .masthead { display: flex; align-items: flex-end; justify-content: space-between;
+    padding-bottom: 16px; border-bottom: 2px solid var(--ink); }
+  .masthead .title { font-family: var(--serif); font-weight: 900; font-size: 80px;
+    line-height: 1; color: var(--navy); letter-spacing: -0.01em; }
+  .masthead .meta { text-align: right; font-size: 14px; line-height: 1.6; color: var(--gray); }
+  .masthead .family { font-weight: 500; letter-spacing: 0.2em; color: var(--ink); }
+  .strap { display: flex; justify-content: space-between; font-size: 13px; color: var(--gray);
+    padding: 8px 0; border-bottom: 1px solid var(--rule); }
+
+  /* 공통 기사 부품 */
+  .kicker { font-weight: 700; font-size: 16px; color: var(--signal); margin-bottom: 8px; }
+  .source { font-size: 12.5px; line-height: 1.4; color: var(--gray); margin-top: 8px; }
+  p { font-size: 18px; line-height: 1.65; margin-bottom: 8px; word-break: keep-all; }
+  h1, h2, h3 { font-family: var(--serif); word-break: keep-all; }
+
+  /* 주기사 */
+  .lead { padding: 24px 0; border-bottom: 1px solid var(--rule); }
+  .lead h1 { font-weight: 900; font-size: 64px; line-height: 1.15; letter-spacing: -0.02em; }
+  .lead .deck { font-family: var(--serif); font-weight: 500; font-size: 26px; line-height: 1.4;
+    color: #333; margin-top: 16px; }
+  .lead-body { display: grid; grid-template-columns: 4fr 2fr; gap: var(--gutter); margin-top: 24px; }
+  figure .photo { width: 100%; aspect-ratio: 4 / 3; background:
+      repeating-linear-gradient(135deg, #E4DFD3 0 12px, #DDD7C9 12px 24px);
+    display: flex; align-items: center; justify-content: center; color: var(--gray); font-size: 15px; }
+  figcaption { font-size: 14px; line-height: 1.5; color: var(--gray); margin-top: 8px; }
+  .here { border-top: 2px solid var(--signal); padding-top: 8px; margin-top: 16px; }
+  .here .label { font-weight: 700; font-size: 14px; color: var(--signal); }
+  .here p { font-size: 17px; }
+
+  /* 보조기사 */
+  .secondary { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gutter);
+    padding: 24px 0; flex: 1; }
+  .secondary article + article { border-left: 1px solid var(--rule); padding-left: var(--gutter); }
+  .secondary h2 { font-weight: 700; font-size: 32px; line-height: 1.25; margin-bottom: 12px; }
+  .stat { display: flex; gap: 16px; align-items: baseline; margin: 8px 0 12px; }
+  .stat .num { font-family: var(--serif); font-weight: 900; font-size: 64px; line-height: 1; color: var(--signal); }
+  .stat .what { font-size: 15px; line-height: 1.5; color: #333; }
+
+  /* 하단 판단 영역 */
+  .judge { background: var(--navy); color: var(--paper); padding: 24px 28px;
+    display: grid; grid-template-columns: 1.1fr 1.6fr 1.3fr; gap: 28px; }
+  .judge .tag { font-weight: 700; font-size: 13px; letter-spacing: 0.08em; opacity: 0.75; margin-bottom: 6px; }
+  .judge .do-not p { font-size: 16px; line-height: 1.5; margin-bottom: 10px; }
+  .judge .do-not b { color: #FFB59F; font-weight: 700; margin-right: 6px; }
+  .judge .bigq { display: flex; gap: 14px; align-items: flex-start; }
+  .judge .bigq h3 { font-weight: 700; font-size: 26px; line-height: 1.35; }
+  .judge .prompt p { font-size: 15px; line-height: 1.55; }
+  .judge .route { font-size: 13px; opacity: 0.8; margin-top: 8px; }
+  .dubu { flex: none; width: 48px; height: 48px; }
+
+  .folio { display: flex; justify-content: space-between; font-size: 12px; color: var(--gray);
+    padding-top: 10px; }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="title" data-slot="제호">MORNING SIGNAL</div>
+  <div class="meta">
+    <div class="family">JUNGNANG SIGNAL</div>
+    <div data-slot="발행일">2026년 10월 5일 월요일 · 1면</div>
+  </div>
+</header>
+<div class="strap">
+  <span>나의 자랑, 우리 중랑</span>
+  <span>견본판 · 판형 시험용 가상 기사</span>
+</div>
+
+<section class="lead">
+  <div class="kicker" data-slot="키커">바깥의 촉</div>
+  <h1 data-slot="헤드라인">한 시장 상인 40명이<br>주문앱 대신 전화번호 하나를 택했다</h1>
+  <div class="deck" data-slot="부제">가상의 ○○시 사례. 상인회가 공동 주문번호를 열고 석 달 만에 수수료를 줄였다는 견본</div>
+  <div class="lead-body">
+    <figure>
+      <div class="photo" data-slot="대표사진">대표 사진 자리 · 4:3</div>
+      <figcaption data-slot="캡션">개념 이미지 자리. 실제 발행에서는 사진에 보이는 것을 한 문장으로 쓰고 크레딧과 촬영일을 단다.</figcaption>
+    </figure>
+    <div>
+      <p data-slot="리드">아침 일곱 시, 정육점 사장 김 씨는 휴대전화 대신 가게 벽의 종이 한 장을 본다. 상인회 공동 주문번호다. 견본 장면 리드다.</p>
+      <p>둘째 문단은 왜 지금인지, 무엇이 확인됐는지를 기관·자료명·발표일과 함께 쓴다.</p>
+      <div class="here">
+        <div class="label">중랑에는</div>
+        <p data-slot="중랑에는">이 방식이 기존 골목형상점가 지원과 어떻게 이어질지는 검토 제안이다.</p>
+      </div>
+      <div class="source" data-slot="출처">출처: 기관명, 자료명, 발표일 · 확인일</div>
+    </div>
+  </div>
+</section>
+
+<section class="secondary">
+  <article>
+    <div class="kicker">숫자로 본</div>
+    <h2 data-slot="보조1 헤드라인">문 닫는 가게보다<br>늦게 여는 가게가 늘었다</h2>
+    <div class="stat">
+      <span class="num" data-slot="숫자">00%</span>
+      <span class="what">숫자 하나와 그 뜻 한 문장.<br>상권 단위와 기준 분기를 적는다.</span>
+    </div>
+    <p>꺾임 시그널의 견본 기사다. 추정치이면 추정이라고 쓴다.</p>
+    <p>둘째 문단은 그 숫자가 왜 꺾였는지, 중랑의 어느 골목과 닿는지를 쓴다.</p>
+    <div class="source">출처: 서울시 상권분석서비스, 기준 분기 · 추정매출</div>
+  </article>
+  <article>
+    <div class="kicker">사람</div>
+    <h2 data-slot="보조2 헤드라인">횡단보도 하나를 옮기자<br>시장 앞 저녁이 달라졌다</h2>
+    <p>사람 시그널 또는 해법 시그널의 견본 기사다. 독립된 제목과 근거를 가진다.</p>
+    <p>보조기사는 주기사보다 확실히 작게 두고, 같은 서식을 반복하지 않는다.</p>
+    <p>사람의 목소리가 있다면 확인된 발언만 짧게 인용한다.</p>
+    <div class="source">출처: 기관명, 자료명, 발표일</div>
+  </article>
+</section>
+
+<section class="judge">
+  <div class="do-not">
+    <div class="tag">오늘의 Do · 不</div>
+    <p><b>Do</b><span data-slot="Do">기존 지원사업의 신청 경로를 상인회 단위로 다시 본다.</span></p>
+    <p><b>不</b><span data-slot="不">플랫폼 하나를 대체할 새 앱부터 만들지 않는다.</span></p>
+  </div>
+  <div class="bigq">
+    <svg class="dubu" viewBox="0 0 48 48" aria-hidden="true">
+      <rect x="6" y="12" width="36" height="30" rx="9" fill="#FFFFFF" stroke="#D9D2C3" stroke-width="1.5"/>
+      <path d="M24 12 C 22 6, 28 4, 30 6 C 28 8, 26 10, 24 12 Z" fill="#5FA052"/>
+      <circle cx="18" cy="26" r="1.8" fill="#141414"/><circle cx="30" cy="26" r="1.8" fill="#141414"/>
+      <path d="M20 31 Q 24 34 28 31" stroke="#141414" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+      <circle cx="14" cy="30" r="2.6" fill="#F4B6A6"/><circle cx="34" cy="30" r="2.6" fill="#F4B6A6"/>
+    </svg>
+    <div>
+      <div class="tag">BIG Q</div>
+      <h3 data-slot="BIG Q">중랑의 골목은 수수료를 줄일 공동의 장치를 이미 갖고 있나?</h3>
+    </div>
+  </div>
+  <div class="prompt">
+    <div class="tag">SIGNAL PROMPT</div>
+    <p data-slot="PROMPT">"우리 과 사업 중 상인회 단위로 묶으면 비용이 줄어드는 것을 세 가지 찾아 줘."</p>
+    <div class="route" data-slot="ROUTE">ROUTE · WATCH → 아궁이</div>
+  </div>
+</section>
+
+<footer class="folio">
+  <span>새로운 연결, 다른 경험</span>
+  <span>견본판 · 모든 기사는 판형 시험용 가상 문장</span>
+  <span>1</span>
+</footer>
+
+</body>
+</html>

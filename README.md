@@ -5,9 +5,12 @@
 ## 구조
 
 -   `SKILL.md`: 마스터 운영체제
--   `prompts/`: 매체별 역할
--   `references/pledge-map.md`: 민선9기 공약 연결 안전장치
--   `assets/`: 사용자가 권리를 보유한 두부 기준 이미지 등을 추가
+-   `morning.md` `issue.md` `agungi.md` `weekly.md` `weekly-ax.md` `dubu.md` `sopo.md`: 매체별 역할
+-   `execution-learning.md`: 공통 실행·학습 계약
+-   `pledge-map.md`: 민선9기 공약 연결 안전장치
+-   `signal-criteria.md`: 촉과 침, 무엇을 시그널로 볼 것인가
+-   `tabloid-design.md`: 타블로이드 편집 시스템
+-   `tabloid-template.html` `tabloid-template.png`: 판형 A 견본과 렌더링 (기사는 가상)
 
 ## 작동식
 
