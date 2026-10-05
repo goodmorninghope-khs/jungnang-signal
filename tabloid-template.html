@@ -40,8 +40,13 @@
     line-height: 1; color: var(--navy); letter-spacing: -0.01em; }
   .masthead .meta { text-align: right; font-size: 14px; line-height: 1.6; color: var(--gray); }
   .masthead .family { font-weight: 500; letter-spacing: 0.2em; color: var(--ink); }
-  .strap { display: flex; justify-content: space-between; font-size: 13px; color: var(--gray);
-    padding: 8px 0; border-bottom: 1px solid var(--rule); }
+  .strap { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--gray);
+    padding: 6px 0; border-bottom: 1px solid var(--rule); }
+  .strap .pub { display: flex; align-items: center; gap: 12px; color: var(--ink); font-size: 15px; }
+  .strap .pub img { height: 44px; width: auto; }
+  .strap .pub b { font-weight: 700; font-size: 17px; color: var(--navy); }
+  .masthead .issue { font-weight: 700; color: var(--navy); }
+
 
   /* 공통 기사 부품 */
   .kicker { font-weight: 700; font-size: 16px; color: var(--signal); margin-bottom: 8px; }
@@ -94,11 +99,12 @@
   <div class="title" data-slot="제호">MORNING SIGNAL</div>
   <div class="meta">
     <div class="family">JUNGNANG SIGNAL</div>
+    <div class="issue" data-slot="호수">제1호 · Vol.1</div>
     <div data-slot="발행일">2026년 10월 5일 월요일 · 1면</div>
   </div>
 </header>
 <div class="strap">
-  <span>나의 자랑, 우리 중랑</span>
+  <span class="pub"><img src="assets/haechari-logo.png" alt="해찰이">새로운 연결, 다른 경험 · <b>중랑정책주방(정책실)</b></span>
   <span>견본판 · 판형 시험용 가상 기사</span>
 </div>
 
@@ -172,7 +178,7 @@
 </section>
 
 <footer class="folio">
-  <span>새로운 연결, 다른 경험</span>
+  <span>나의 자랑, 우리 중랑</span>
   <span>견본판 · 모든 기사는 판형 시험용 가상 문장</span>
   <span>1</span>
 </footer>
