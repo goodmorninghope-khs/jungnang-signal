@@ -2,7 +2,7 @@
 
 SKILL.md의 편집 가이드라인을 구체적인 치수·부품·판형으로 옮긴 제작 기준이다.
 IMAGE를 만들기 전에 읽는다. 매체 파일과 사용자 지정 기준판(0917.png, 1001_트럼프.png)이 이 파일보다 우선한다.
-HTML로 지면을 만들 때는 `tabloid-template.html`을 출발점으로 쓴다.
+HTML로 지면을 만들 때는 `shared/tabloid-template.html`을 출발점으로 쓴다.
 
 ## 멋의 원리 다섯
 
@@ -194,9 +194,9 @@ Do와 不은 각각 한 문장. BIG Q는 가장 크게, PROMPT는 따라 쓸 수
 
 ## 제작 순서
 
-1. TEXT를 완성·검증한다. 시그널 판정은 `signal-criteria.md`를 따른다.
+1. TEXT를 완성·검증한다. 시그널 판정은 `shared/signal-criteria.md`를 따른다.
 2. 주기사의 성격으로 판형 A~E 중 하나를 고른다.
-3. `tabloid-template.html`을 복사해 내용과 판형을 바꾼다. 새 사실을 IMAGE에서 추가하지 않는다.
+3. `shared/tabloid-template.html`을 복사해 내용과 판형을 바꾼다. 새 사실을 IMAGE에서 추가하지 않는다.
 4. 1200×1800px로 렌더링해 PNG를 만든다. 아래 명령은 예시다.
 
 ```
