@@ -36,3 +36,4 @@ assets/           haechari-logo.png
 ## 바뀐 기록
 
 - 2026.10.06-1: 편집국 체계로 재구성(newsroom/desks/shared), PEOPLE 지면 신설, ISSUE·PEOPLE 컨펌제, GPT 고문 메일 연락망, 원본=스킬·GitHub=사본.
+- 2026.10.10-1: GitHub 사본을 실제 newsroom/desks/shared 폴더로 옮기고 SKILL.md를 길잡이(버전 줄 포함)로 교체. 10-06 업로드 때 v4 문서가 루트에 평평하게 올라가고 옛 SKILL.md가 남아, 예약 작업이 '옛 구조'로 판단해 드라이브의 10-05판 역할 문서를 읽고 있었다. 중복 v2 문서(00-04) 정리. 편집국장에 중복 발행 확인(공통 시작 6)과 GPT 의견 반영 블록 추가.
