@@ -5,7 +5,7 @@
 ## 구조
 
 -   `SKILL.md`: 길잡이와 버전 줄(예약 작업이 이 줄로 새 구조를 알아본다)
--   `newsroom/`: 편집국 헌장·편집국장·촉·침·고문·싱크 규칙
+-   `newsroom/`: 편집국 헌장·편집국장·촉·침·고문·싱크 규칙, 내각 연결(`cabinet.md`: 김현성 내각의 국정소통부)
 -   `desks/`: 지면별 역할(morning, issue, people, agungi, weekly, weekly-ax, dubu, sopo)
 -   `shared/constitution.md`: 편집헌법(이전 SKILL.md 본문)
 -   `shared/execution-learning.md`: 공통 실행·학습 계약
