@@ -27,7 +27,7 @@ MORNING 실행은 시작할 때 스킬의 '버전' 줄과 GitHub SKILL.md의 '�
 ```
 SKILL.md          라우터 + 버전
 README.md         저장소 안내
-newsroom/         charter · editor-in-chief · chok · chim · advisor · sync
+newsroom/         charter · editor-in-chief · chok · chim · advisor · sync · cabinet
 desks/            morning · issue · people · agungi · weekly · weekly-ax · dubu · sopo
 shared/           constitution · signal-criteria · tabloid-design · tabloid-template.html/png · pledge-map · execution-learning
 assets/           haechari-logo.png
@@ -37,3 +37,4 @@ assets/           haechari-logo.png
 
 - 2026.10.06-1: 편집국 체계로 재구성(newsroom/desks/shared), PEOPLE 지면 신설, ISSUE·PEOPLE 컨펌제, GPT 고문 메일 연락망, 원본=스킬·GitHub=사본.
 - 2026.10.10-1: GitHub 사본을 실제 newsroom/desks/shared 폴더로 옮기고 SKILL.md를 길잡이(버전 줄 포함)로 교체. 10-06 업로드 때 v4 문서가 루트에 평평하게 올라가고 옛 SKILL.md가 남아, 예약 작업이 '옛 구조'로 판단해 드라이브의 10-05판 역할 문서를 읽고 있었다. 중복 v2 문서(00-04) 정리. 편집국장에 중복 발행 확인(공통 시작 6)과 GPT 의견 반영 블록 추가.
+- 2026.10.11-1: 편집국을 김현성 내각의 국정소통부로 연결(newsroom/cabinet.md 신설). 구글 드라이브 내각 우편함으로 발행 보고와 승인된 내각 카드 접수. 편집권 원칙(논조·결론 지시와 홍보 요청 불가) 명시. 우편함이 없으면 건너뛰고 발행은 멈추지 않는다. 헌장 「내각에서의 자리」, 편집국장 공통 시작 3·회의 순서 10·주간 6·휴대폰 알림에 한 줄씩.

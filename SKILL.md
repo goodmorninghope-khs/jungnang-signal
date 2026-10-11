@@ -5,9 +5,9 @@ description: 중랑구 정책결정미디어 JUNGNANG SIGNAL 편집국 스킬. M
 
 # JUNGNANG SIGNAL 편집국
 
-버전: 2026.10.10-1
+버전: 2026.10.11-1
 
-발행처 중랑정책주방(정책실), 발행인 김현성(태하) 작가. 이 파일은 길잡이다. 규칙의 본문은 아래 파일에 있다.
+발행처 중랑정책주방(정책실), 발행인 김현성(태하) 작가. 편집국은 김현성 내각의 국정소통부다(`newsroom/cabinet.md`). 이 파일은 길잡이다. 규칙의 본문은 아래 파일에 있다.
 
 ## 먼저 읽을 것 (모든 실행)
 
@@ -24,7 +24,7 @@ description: 중랑구 정책결정미디어 JUNGNANG SIGNAL 편집국 스킬. M
 ```
 SKILL.md          길잡이 + 버전
 README.md         저장소 안내
-newsroom/         charter · editor-in-chief · chok · chim · advisor · sync
+newsroom/         charter · editor-in-chief · chok · chim · advisor · sync · cabinet
 desks/            morning · issue · people · agungi · weekly · weekly-ax · dubu · sopo
 shared/           constitution · signal-criteria · tabloid-design · tabloid-template.html/png · pledge-map · execution-learning
 assets/           haechari-logo.png · dubu/(캐릭터 기준 이미지 자리)
@@ -34,6 +34,7 @@ assets/           haechari-logo.png · dubu/(캐릭터 기준 이미지 자리)
 - 지면 제작: `shared/tabloid-design.md`, `shared/tabloid-template.html` (로고는 `../assets/haechari-logo.png`로 참조)
 - 공약 연결: `shared/pledge-map.md`
 - 스킬과 GitHub의 싱크: `newsroom/sync.md`
+- 내각 연결(국정소통부: 발행 보고, 내각 카드 접수, 편집권): `newsroom/cabinet.md`
 
 ## 우선순위
 

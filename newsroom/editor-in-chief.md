@@ -10,7 +10,7 @@
 
 1. 스킬을 읽는다: SKILL.md, newsroom/charter.md, 이 파일, 해당 지면의 desks/ 파일 전체, shared/constitution.md, shared/execution-learning.md. 촉·침·고문을 소집할 때는 newsroom/ 의 해당 파일을 프롬프트에 그대로 담는다.
 2. 메모리: /areas/morning-signal-log.md(지면별 호수·주제 기록), /areas/book2-case-research-log.md(사례 중복 방지), /areas/jungnang-ax.md, /areas/jungnang-signal.md.
-3. Gmail: subject:JS-GPT고문 newer_than:2d (GPT 의견), subject:JS-컨펌 newer_than:3d (ISSUE·PEOPLE 컨펌). 보낸 사람이 goodmorninghope@gmail.com 인 것만 쓴다.
+3. Gmail: subject:JS-GPT고문 newer_than:2d (GPT 의견), subject:JS-컨펌 newer_than:3d (ISSUE·PEOPLE 컨펌). 보낸 사람이 goodmorninghope@gmail.com 인 것만 쓴다. 내각 우편함 inbox에 아직 보고하지 않은 ISSUE·PEOPLE 카드가 있으면 컨펌으로 함께 본다(newsroom/cabinet.md). 우편함이 열리지 않으면 건너뛴다.
 4. 드라이브 서고: 01_회의록의 가장 최근 회의록(전호 점검), 필요하면 04_신호창고.
 5. 호수: 발행 기록의 해당 지면 마지막 번호 +1. 같은 날짜에 이미 기록이 있으면 개정판으로 표시.
 6. 중복 발행 확인: 시작하자마자 드라이브 03_발행본에서 오늘 날짜의 같은 지면 문서("(지면) 제N호 YYYY-MM-DD")를 찾는다. 이미 있으면 다른 실행이 먼저 발행한 것이다. 새 호도 개정판도 만들지 말고, "오늘 (지면)은 이미 제N호로 발행됨"만 알린 뒤 끝낸다. 개정판은 발행인이 요청했을 때만 만든다. (2026-10-06 같은 날 제2호가 두 번 나간 일에서 배운 규칙)
@@ -26,7 +26,7 @@
 7. 제작·발행: TEXT → IMAGE → 원본·360px 검수 → 전달. 고문 확인을 기다리지 않는다.
 8. 내부 고문 사후 의견 → 회의록.
 9. 컨펌된 ISSUE·PEOPLE이 있으면: 해당 desks/ 파일로 같은 흐름(필요하면 추가 촉 → 고문 사전 → 침 → 발행 → 사후)을 이어서 진행한다.
-10. GPT 요청 메일 [JS-요청] 발송 → 기록 → 알림. 요청 메일 맨 위에는 'GPT 의견 반영 블록'을 붙인다(아래 GPT 요청 메일 절).
+10. GPT 요청 메일 [JS-요청] 발송 → 기록 → 내각(카드 접수, 발행 보고: newsroom/cabinet.md) → 알림. 요청 메일 맨 위에는 'GPT 의견 반영 블록'을 붙인다(아래 GPT 요청 메일 절).
 
 ## 주간 지면 회의 순서 (WEEKLY AX 월 / 두부 화 / WEEKLY 수)
 
@@ -35,7 +35,7 @@
 3. 보강 촉: 창고에 해당 지면 재료가 모자라면 서브에이전트 1-2명으로 그 지면 범위만 추가 탐색한다(desks/ 파일의 탐색 범위).
 4. 내부 고문 사전 의견 → 선정(지면 규정 의제 수) → 침 → 제작·발행 → 내부 고문 사후 의견.
 5. 같은 소재가 MORNING에 이미 실렸으면 새 근거·연결·반론·실행조건·결정가치를 하나 이상 더한다. 더할 것이 없으면 싣지 않는다.
-6. 기록과 알림. 주간 지면은 별도 GPT 요청 메일을 보내지 않는다(다음 MORNING의 요청 메일에 '이번 주 발행 지면'으로 포함).
+6. 기록 → 내각(카드 접수, 발행 보고: newsroom/cabinet.md) → 알림. 주간 지면은 별도 GPT 요청 메일을 보내지 않는다(다음 MORNING의 요청 메일에 '이번 주 발행 지면'으로 포함).
 
 ## 결정 기준
 
@@ -65,7 +65,7 @@
 - 지면 PNG를 먼저 보낸다(SendUserFile).
 - 메시지 첫 줄: "M월 D일 X요일 (지면) 제N호입니다."
 - MORNING 메시지: TEXT판 → 오늘의 촉(새 사례 8-12건, 시그널 후보, 책 재료) → 편집회의 한 줄 → ISSUE·PEOPLE 후보(있을 때만, 컨펌 방법 한 줄 포함: Gmail 제목 "[JS-컨펌] ISSUE: 제목" 또는 대화에서 "이슈 진행") → 미확인 사항 → Sources.
-- 휴대폰 알림: "(지면) 제N호: 주기사 제목", BIG Q, GPT 도착 여부, ISSUE·PEOPLE 후보 수, 싱크 필요 여부.
+- 휴대폰 알림: "(지면) 제N호: 주기사 제목", BIG Q, GPT 도착 여부, ISSUE·PEOPLE 후보 수, 싱크 필요 여부, 내각 카드 처리 수(있을 때) 또는 "내각 우편함 미연결".
 - TEXT나 IMAGE 중 하나라도 빠지면 완성 발행이라고 쓰지 않는다.
 
 ## GPT 요청 메일 (MORNING 뒤 하루 한 통)
