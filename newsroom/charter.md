@@ -1,6 +1,14 @@
 # 중랑 시그널 편집국 헌장
 
-기준일 2026-10-06 (v4) · 발행처 중랑정책주방(정책실) · 이 헌장을 고치면 다음 실행부터 편집국이 따른다.
+기준일 2026-10-28 (v5) · 발행처 중랑정책주방(정책실) · 이 헌장을 고치면 다음 실행부터 편집국이 따른다.
+
+## 중랑정책미디어 창간 (v5, 2026-10-28 발행인 결정)
+
+- 2026-11-01(일) JUNGNANG SIGNAL과 아궁이를 **중랑정책미디어**로 통합 창간한다. 창간호는 MORNING Vol.28. 호수는 지면마다 Vol.을 이어 간다.
+- 모토: **밖에서의 촉이, 중랑을 건강하게 하는 침으로.** 중랑을 감시하는 신문이 아니라, 국내외의 변화를 기사·연구보고서로 읽고 중랑에 적용할 의견과 해석을 건네는 정책 미디어다. 읽는 내부자의 부담을 줄인다.
+- 편집 원칙은 `shared/chokchim-charter.md`(촉침 편집헌장 v1)이 이 헌장의 다른 조항보다 앞선다. 핵심: 머리는 밖에서, 외부 8 : 중랑 2, 촉 → 읽기 → 침 → Q, 제안형 어조(미비 지적형 제목 금지), 3분 읽기, 중랑 현안은 WEEKLY '이번 주 침'에서만.
+- 두 엔진: 지면 글은 Claude 편집국, 밖의 촉 레이더와 아궁이 시각물·소포는 GPT, 통합 점검과 진열은 Aside. → `shared/two-engines.md`. 두 시선을 합치는 법 → `shared/convergence.md`.
+- 진열: https://jungnang-media.vercel.app (촉 / 침 · 아궁이 / 융복합 / 질문 서가 / 서가).
 
 ## 한 편집국, 여러 지면
 
@@ -24,14 +32,14 @@ JUNGNANG SIGNAL의 모든 지면은 한 편집국이 만든다. 촉은 한 번 �
 
 | 지면 | 주기 | 데스크 파일 | 신호 창고에서 가져가는 것 |
 |---|---|---|---|
-| MORNING SIGNAL | 매일 05:45 제작, 06:30 전후 발행 | desks/morning.md | 오늘의 새 신호 2-3개 |
+| MORNING SIGNAL | 평일(월-금) 05:45 제작, 07:00 전 발행. 주말 휴간(11/1 창간호만 예외) | desks/morning.md | 오늘의 외부 신호 2-3개 |
 | WEEKLY AX SIGNAL | 매주 월 09:09 | desks/weekly-ax.md | 한 주의 행정·AX 카드와 아궁이 가설 검증 |
-| 두부 · LEADERSHIP SIGNAL | 매주 화 05:55 | desks/dubu.md | 리더십 사례의 MSAVC와 Do/不 패턴 |
-| JUNGNANG WEEKLY SIGNAL | 매주 수 08:08 | desks/weekly.md | 한 주 카드 중 국장회의 의제 1-2개 |
-| ISSUE SIGNAL | 부정기, 발행인 컨펌 | desks/issue.md | '한 면으로는 모자란' 사안 1건 |
-| PEOPLE SIGNAL | 부정기, 발행인 컨펌 | desks/people.md | 먼저 움직인 사람 1명 |
-| 아궁이 | 수시 | desks/agungi.md | 신호를 정책·실험으로 굽는 설계 |
-| SOPO | 휴간(예약 없음) | desks/sopo.md | 재개 시 소상공인용 번역 |
+| 두부 · LEADERSHIP SIGNAL | 매주 화 05:55 (넷째 화는 PEOPLE) | desks/dubu.md | 국내외 리더십 사례의 MSAVC와 Do/不 패턴 |
+| JUNGNANG WEEKLY SIGNAL · 이번 주 침 | 매주 수 08:08 | desks/weekly.md | 지난주 촉 가운데 중랑에 적용할 후보 3개(제안형) |
+| ISSUE SIGNAL | 격주 금 권장, 발행인 컨펌 | desks/issue.md | 해외 연구보고서 한 편을 깊게 |
+| PEOPLE SIGNAL | 월 1회 넷째 화(두부 자리, 발행인 사전 승인) | desks/people.md | 먼저 움직인 사람 1명 |
+| 아궁이 레시피 | 월 1회 마지막 금(첫 회 11/27) | desks/agungi.md | 한 달 촉 가운데 하나를 한 장 정책지도로 |
+| SOPO(소포) | GPT 발행, 별도 매체(외부 독자) | desks/sopo.md | 소상공인용 번역 |
 
 호수는 지면마다 따로 매긴다(제N호 · Vol.N).
 
@@ -55,7 +63,7 @@ MORNING 발견 → (ISSUE 심층, 컨펌 시) → WEEKLY·AX 숙성 → 아궁�
 
 ## 원본과 서고
 
-- 규칙의 원본: Claude 스킬 jungnang-signal. GitHub 저장소 goodmorninghope-khs/jungnang-signal은 같은 내용을 싱크한 사본이다. → newsroom/sync.md
+- 규칙의 원본: GitHub 저장소 goodmorninghope-khs/jungnang-signal main(2026-10-28부터 Claude 예약 실행이 이 저장소를 읽는다). Claude 계정 스킬을 설치하면 같은 내용으로 싱크한다. → newsroom/sync.md
 - 서고(구글 드라이브 '07_시그널·소포/중랑 시그널 편집국'): 01_회의록, 02_GPT 고문 메모함(대체 경로), 03_발행본, 04_신호창고.
 - 발행 기록: 메모리 /areas/morning-signal-log.md(지면별 호수와 주제 기록).
 
