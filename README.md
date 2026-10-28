@@ -1,6 +1,6 @@
 # jungnang-signal · 중랑정책미디어
 
-> 밖에서의 촉이, 중랑을 건강하게 하는 침으로. 2026-11-01 창간 · 진열 https://jungnang-media.vercel.app
+> 밖에서의 촉이, 중랑을 건강하게 하는 침으로. 2026-11-11(수) 창간 · 10/29~11/10 창간 예비호 파일럿 · 진열 https://jungnang-media.vercel.app
 
 중랑의 정책결정미디어 JUNGNANG SIGNAL 편집국과 정책 설계 주방 아궁이를 하나로 묶은 통합 스킬 저장소. Claude와 GPT가 같은 원본을 읽는다(`shared/two-engines.md`, `newsroom/sync.md`).
 

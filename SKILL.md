@@ -9,7 +9,7 @@ description: 중랑정책미디어(JUNGNANG SIGNAL × 아궁이) 통합 스킬. 
 
 발행처 중랑정책주방(정책실), 발행인 김현성(태하) 작가. 편집국은 김현성 내각의 국정소통부다(`newsroom/cabinet.md`). 이 파일은 길잡이다. 규칙의 본문은 아래 파일에 있다.
 2026-10-28부터 아궁이 스킬(이전 저장소 goodmorninghope-khs/jungnang-agungi v0.3)을 이 저장소의 `agungi/`로 합쳤다.
-2026-11-01(일) 두 매체를 **중랑정책미디어**로 통합 창간한다(MORNING Vol.28 창간호). 모든 지면은 먼저 `shared/chokchim-charter.md`(촉침 편집헌장 v1)를 따른다: 머리는 밖에서, 외부 8 : 중랑 2, 촉 → 읽기 → 침 → Q, 제안형 어조, 3분 읽기. 진열은 https://jungnang-media.vercel.app .
+2026-11-11(수) 두 매체를 **중랑정책미디어**로 통합 창간한다(MORNING Vol.34 창간호). 10/29~11/10은 창간 예비호 ①~⑨ 파일럿(`shared/launch-pilot.md`). 모든 지면은 먼저 `shared/chokchim-charter.md`(촉침 편집헌장 v1)를 따른다: 머리는 밖에서, 외부 8 : 중랑 2, 촉 → 읽기 → 침 → Q, 제안형 어조, 3분 읽기. 진열은 https://jungnang-media.vercel.app .
 
 ## 무엇을 할 때 어디를 읽나
 
