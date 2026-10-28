@@ -7,7 +7,7 @@ description: 중랑구 정책결정미디어 JUNGNANG SIGNAL 편집국과 정책
 
 버전: 2026.10.28-1
 
-발행처 중랑정책주방(정책실), 발행인 김현성(태하) 작가. 이 파일은 길잡이다. 규칙의 본문은 아래 파일에 있다.
+발행처 중랑정책주방(정책실), 발행인 김현성(태하) 작가. 편집국은 김현성 내각의 국정소통부다(`newsroom/cabinet.md`). 이 파일은 길잡이다. 규칙의 본문은 아래 파일에 있다.
 2026-10-28부터 아궁이 스킬(이전 저장소 goodmorninghope-khs/jungnang-agungi v0.3)을 이 저장소의 `agungi/`로 합쳤다.
 
 ## 무엇을 할 때 어디를 읽나
@@ -18,7 +18,8 @@ description: 중랑구 정책결정미디어 JUNGNANG SIGNAL 편집국과 정책
 | 정책 설계·재설계(아궁이, 5중 필터, 초광폭 탐색, 작은 실험) | `agungi/SKILL.md` (이미지·한 장이면 `agungi/references/editorial-guide.md`) |
 | 신호를 정책으로 넘길 때 | `desks/agungi.md` (SIGNAL과 아궁이 사이의 인계 규칙) |
 | Claude와 GPT가 함께 일할 때 | `shared/two-engines.md` (원본 하나, 창구, 상태 용어, 주간 통합) |
-| 지난 호·지난 아궁이를 찾을 때 | `archive/index.md` · `archive/index.json` |
+| 지난 호·지난 아궁이를 찾을 때 | `archive/index.md` · `archive/index.json` (진열은 중랑정책미디어·아아·소포 사이트) |
+| 내각 연결(발행 보고, 내각 카드 접수, 편집권) | `newsroom/cabinet.md` |
 
 촉·침·고문을 서브에이전트로 소집할 때는 `newsroom/chok.md`, `newsroom/chim.md`, `newsroom/advisor.md` 전문을 프롬프트에 그대로 담는다.
 
