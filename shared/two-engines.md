@@ -2,7 +2,7 @@
 
 기준일 2026-10-28 (v2) · 발행인 지시: "클로드와 GPT 이야기를 늘 통합해 주시고, 시그널 시리즈와 아궁이를 통합 머지해 주세요", "GPT와 클로드 간 역할 배분은 Aside가", "클로드·GPT 각각의 시선으로 작성된 내용들을 융복합적 시각으로 통합"
 
-2026-11-01부터 두 엔진은 **중랑정책미디어**(JUNGNANG SIGNAL × 아궁이)의 한 편집국으로 일한다. 편집 원칙은 `shared/chokchim-charter.md`(촉침 편집헌장 v1), 두 시선을 합치는 법은 `shared/convergence.md`를 따른다.
+2026-11-11(수, 창간) 전후로 두 엔진은 **중랑정책미디어**(JUNGNANG SIGNAL × 아궁이)의 한 편집국으로 일한다. 편집 원칙은 `shared/chokchim-charter.md`(촉침 편집헌장 v1), 두 시선을 합치는 법은 `shared/convergence.md`를 따른다.
 
 ## 1. 원본은 하나
 
