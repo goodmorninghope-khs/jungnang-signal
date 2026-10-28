@@ -1,0 +1,14 @@
+interface:
+  display_name: 아궁이 · 정책을 궁리하는 주방
+  short_description: 착상과 문답을 주민경험을 바꾸는 정책 한 장으로 익히는 작업법
+  default_prompt: 이 주제를 $agungi로 궁리해 주세요. 핵심 질문과 반례를 검토하고 중랑에서 시험할 작은 실험까지 한 장으로 정리해
+    주세요.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
