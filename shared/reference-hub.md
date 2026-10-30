@@ -5,7 +5,8 @@
 ## 기준
 - 공약 연결 기준(민선9기 7대 비전·70개): https://github.com/goodmorninghope-khs/jungnang-signal/blob/main/shared/pledge-map.md
   - 원본은 「민선9기 공약사업 보고.pdf」(23쪽, 내부 자료). 개별 사업명은 원문으로 확인될 때만 쓰고 사업번호는 만들지 않는다.
-- 편집헌장 v1.1: https://github.com/goodmorninghope-khs/jungnang-signal/blob/main/shared/chokchim-charter.md
+- **씨줄과 날줄(선정의 가장 큰 기준: AX 5대 전략 × 공약 7대 비전)**: https://github.com/goodmorninghope-khs/jungnang-signal/blob/main/shared/weave-grid.md
+- 편집헌장 v1.2: https://github.com/goodmorninghope-khs/jungnang-signal/blob/main/shared/chokchim-charter.md
 - 문체·촉 기준(2026-10-30): 읽는 공무원이 평가받는다고 느끼지 않는 문체, 공약 7대 비전·구정 주요 사항(중랑 AX2030 등)에 닿는 촉, 신호마다 '닿는 공약' 꼬리표
 - 예비호 실험표: https://github.com/goodmorninghope-khs/jungnang-signal/blob/main/shared/pilot-experiments.md
 - 파일럿 일정: https://github.com/goodmorninghope-khs/jungnang-signal/blob/main/shared/launch-pilot.md
