@@ -21,3 +21,13 @@
 ## 작동식
 
 `SIGNAL → ISSUE(필요 시) → 아궁이 → WEEKLY → Do/不 → ACTION → 다시 SIGNAL`
+
+## 연계 (밸류체인)
+
+이 저장소는 [policy-media-desk](https://github.com/goodmorninghope-khs/policy-media-desk) 밸류체인의 **② 제작 (규칙 원장) · ④ 정책화 (아궁이)** 고리다. 상태: 연계.
+
+- 받음: GPT 촉 레이더 후보(inbox/chok), 노하우·실험 결과(policy-media-desk)
+- 넘김: 헌장·pledge-map·실험표·reference-hub를 세 엔진에 공급, 아궁이로 신호를 정책 1장으로 굽기 → jungnang-ax2030 항해지도 실천 과제
+- 넘길 때는 출처 지면(지면명·호수·날짜·링크)과 '닿는 공약'을 붙이고, 침은 의견으로 남긴다. 결정은 받는 고리의 책임자가 한다.
+
+전체 사슬: [references/value-chain.md](https://github.com/goodmorninghope-khs/policy-media-desk/blob/main/references/value-chain.md)
