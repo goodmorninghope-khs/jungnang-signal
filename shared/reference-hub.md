@@ -26,3 +26,9 @@
 | 처음 쓴 호 | 중랑의 기존 실천 | 근거(원문) | 닿는 공약 | 상태 |
 |---|---|---|---|---|
 | MORNING Vol.26 (10/30) | AI 안부전화 '안심톡' (2025년 10월 시범 보도) | MTN 2025-10-22 보도 | ⑥ 복지 | 현재 운영 여부 미확인 |
+| MORNING Vol.27 · WEEKLY AX Vol.4 (11/2) | 면목역세권 민간재개발 조합설립추진위원회 승인(10/26) | 중랑구 보도자료 2026-10-29 https://www.jungnang.go.kr/portal/bbs/view/B0000151/168236.do?menuNo=200474 | ④ 주거환경 | 원문 확인(Aside 브라우저 11/2, 편집국 환경에선 열리지 않음) |
+| MORNING Vol.27 · WEEKLY AX Vol.4 (11/2) | 11월 구민정보화교육 생성형 AI 강좌 3개 | 중랑구 보도자료 2026-10-27 https://www.jungnang.go.kr/portal/bbs/view/B0000151/168196.do?menuNo=200474 | ① 교육 | 원문 확인(Aside 브라우저 11/2) |
+| MORNING Vol.27 (11/2) | 방정환교육지원센터 자기주도학습·진로 프로그램 | https://educenter.jungnang.go.kr/contents/about_greeting.php | ① 교육 | 편집국 원문 확인 |
+| MORNING Vol.27 (11/2) | 상봉2동 복합청사(2019, 민원실·북카페·상봉도서관) | 서울신문 2019-10-21 https://m.go.seoul.co.kr/news/2019/10/21/20191021012020 | ⑤ 문화 | 언론 보도 기준 |
+| MORNING Vol.27 (11/2) | 묵2동 문화체육복합센터(2023, 주민센터·작은도서관·체육시설) | 뉴스서울 2023-07-21 https://newsseoul.co.kr/news/view/1065568212332729 | ⑤ 문화 | 언론 보도 기준 |
+| WEEKLY AX Vol.4 (11/2) | 경원선 철도지하화 종합계획 반영 7개 자치구 공동 건의 | 중랑구 보도자료 2026-10-22 https://www.jungnang.go.kr/portal/bbs/view/B0000151/168143.do?menuNo=200474 | ③ 동북권 교통 | 원문 확인(Aside 브라우저 11/2) |
