@@ -11,6 +11,9 @@
 - 예비호 실험표: https://github.com/goodmorninghope-khs/jungnang-signal/blob/main/shared/pilot-experiments.md
 - 파일럿 일정: https://github.com/goodmorninghope-khs/jungnang-signal/blob/main/shared/launch-pilot.md
 
+## 문체
+- 매체의 목소리 시범 v0.1(김현성체 참고, 2026-11-13 판부터): https://github.com/goodmorninghope-khs/jungnang-signal/blob/main/shared/voice-guide.md
+
 ## 쌍둥이 매체
 - 중랑브리핑(안을 비추는 창문, 구청 보도자료 원문): https://jungnang-briefing.vercel.app · 데이터 https://jungnang-briefing.vercel.app/data/brief.js
 - 시너지 설계: https://github.com/goodmorninghope-khs/jungnang-signal/blob/main/shared/twin-media.md
