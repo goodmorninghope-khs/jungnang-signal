@@ -17,7 +17,7 @@
   "ISSUE": 27,
   "공공AX 파일럿": 1,
   "제작 기록": 13,
-  "PEOPLE": 2,
+  "PEOPLE": 3,
   "아궁이(시각물)": 59,
   "아궁이(궁리)": 27,
   "기획·운영": 10,
@@ -4522,6 +4522,28 @@
    "sources": [
     "site:drive-1E-gBSAbemNIRTzhQC7G07zstIgccVslIRRDU8y8sS7Q",
     "site:library-weekly-signal-20261028"
+   ]
+  },
+  {
+   "id": "site:people-20261113",
+   "series": "PEOPLE",
+   "date": "2026-11-13",
+   "no": "제1호",
+   "title": "\"사지 마\"라던 상인에게 사람이 몰렸고, 경호원 3명은 그가 직접 불렀다",
+   "topic": "골목경제 · 주민과 함께",
+   "desc": "PEOPLE SIGNAL 제1호(Claude 편집국) · 남대문 '스카프 아저씨'. 한 가게가 부른 손님을 시장이 함께 맞는 '붐비는 날 한 장' 제안. 사진판(서울시 공공누리4 사진 2장). 씨줄 AX① · 날줄 공약2.",
+   "made_by": "Claude",
+   "ax2030": [
+    "①"
+   ],
+   "pledge": [
+    "2"
+   ],
+   "status": "발행",
+   "where": [
+    "중랑정책미디어",
+    "jungnang-media",
+    "드라이브 03_발행본"
    ]
   }
  ]
